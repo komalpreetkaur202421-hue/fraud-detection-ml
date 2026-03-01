@@ -1,0 +1,78 @@
+Insurance Fraud Detection Using Machine Learning
+📖 About the Project
+
+Insurance fraud costs companies billions every year. In this project, I built a Machine Learning model to identify potentially fraudulent insurance claims based on historical claim data.
+
+The goal is simple: detect suspicious claims early while minimizing false accusations. Because fraud cases are rare compared to legitimate claims, this project also focuses heavily on handling class imbalance and choosing the right evaluation metrics.
+
+🎯 What This Project Covers
+
+Exploratory Data Analysis (EDA) to understand claim patterns
+
+Feature engineering to extract meaningful insights
+
+Handling imbalanced data using techniques like SMOTE and class weighting
+
+Training multiple classification models (Logistic Regression, Random Forest, XGBoost, etc.)
+
+Evaluating performance using precision, recall, F1-score, and ROC-AUC
+
+Interpreting predictions using SHAP for transparency
+
+🛠️ Tech Stack
+
+Python
+
+Pandas & NumPy
+
+Scikit-learn
+
+XGBoost
+
+Matplotlib & Seaborn
+
+Imbalanced-learn
+
+SHAP
+
+📊 Dataset
+
+The dataset includes:
+
+Policy details
+
+Claimant information
+
+Claim amount
+
+Incident details
+
+A fraud label (Fraud / Not Fraud)
+
+🚀 Workflow
+
+Data cleaning and preprocessing
+
+Exploratory data analysis
+
+Feature engineering
+
+Handling class imbalance
+
+Model training and comparison
+
+Performance evaluation
+
+Model interpretation
+
+🔎 Key Focus Areas
+
+Improving fraud detection recall without increasing false positives excessively
+
+Addressing real-world class imbalance
+
+Making model predictions interpretable for business use
+
+💡 Why This Matters
+
+Fraud detection is not just a technical challenge — it’s a business-critical problem. A good model must balance accuracy, fairness, and explainability. This project reflects that balance.
